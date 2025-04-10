@@ -6,7 +6,7 @@
       "Deltamus"
     ],
     "side": "server",
-    "description": "",
+    "description": "A server-side mod that allows server admins to set up and teleport bad-acting players to a jail for a set duration.",
     "version": "1.0.0",
     "dependencies": {
         "game": ""
