@@ -152,21 +152,20 @@ namespace JailMod.commands
             try
             {
                 var modSystem = sapi.ModLoader.GetModSystem<JailModModSystem>();
-                string list = "";
                 var jailData = modSystem.GetJailData().JailedPlayers;
 
-                if (jailData.Count() == 0)
+                if (jailData.Count == 0)
                 {
                     return TextCommandResult.Success("No players are currently jailed.");
                 }
 
-                list += "CURRENTLY JAILED PLAYERS:\n";
-                list += "-----------------------------------------\n";
+                string list = "CURRENTLY JAILED PLAYERS:\n-----------------------------------------\n";
+                double currentTime = sapi.World.Calendar.TotalHours;
                 foreach (var entry in jailData)
                 {
-                    list += $"{entry.Key} is jailed until {entry.Value.ReleaseTime}\n";
+                    double timeLeft = (entry.Value.ReleaseTime - currentTime) * 60.0;
+                    list += $"{entry.Key} (Time left: {timeLeft:F1} minutes)\n";
                 }
-
                 list += "-----------------------------------------\n";
 
                 return TextCommandResult.Success(list);

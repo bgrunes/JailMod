@@ -142,7 +142,7 @@ namespace JailMod
             player.SetSpawnPosition(spawnPos);
 
             // Add player to list of jailed players
-            jailData.JailedPlayers.Add(player.PlayerUID, new JailEntry
+            jailData.JailedPlayers.Add(player.PlayerName, new JailEntry
             {
                 OriginalPosition = ogPos,
                 OriginalSpawn = ogSpawn,
