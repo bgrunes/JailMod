@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JailMod", "JailMod\JailMod.csproj", "{FC10BEF9-EDC9-4EB5-AD99-AF19259A917A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{D227C4EA-658D-4F34-A338-84E378D1E93D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC10BEF9-EDC9-4EB5-AD99-AF19259A917A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10BEF9-EDC9-4EB5-AD99-AF19259A917A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10BEF9-EDC9-4EB5-AD99-AF19259A917A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10BEF9-EDC9-4EB5-AD99-AF19259A917A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D227C4EA-658D-4F34-A338-84E378D1E93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D227C4EA-658D-4F34-A338-84E378D1E93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D227C4EA-658D-4F34-A338-84E378D1E93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D227C4EA-658D-4F34-A338-84E378D1E93D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C1E1E29-F10D-4563-9DB5-E3D5615C4BE6}
+	EndGlobalSection
+EndGlobal

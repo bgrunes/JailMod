@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "jailmod",
+    "name": "JailMod",
+    "authors": [
+      "Deltamus"
+    ],
+    "side": "server",
+    "description": "",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
